@@ -1,7 +1,7 @@
 var webpack = require('webpack');
 
 module.exports = {
-    entry: './client/app.jsx',
+    entry: './client/app.es6',
     output: {
         path: __dirname + '/',
         filename: 'bundle.js'
@@ -16,7 +16,7 @@ module.exports = {
     ],
     module: {
         loaders: [
-            {   test: /\.jsx?$/,
+            {   test: /\.es6?$/,
                 exclude: /node_modules/,
                 loader: '6to5-loader?optional=selfContained'}
         ]
