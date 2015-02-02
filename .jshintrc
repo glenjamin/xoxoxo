@@ -1,0 +1,9 @@
+// Only used for .jsx files
+{
+    "node": true,
+    "esnext": true,
+    "sub": true,
+    "unused": true,
+    "undef": true,
+    "maxlen": 100
+}
